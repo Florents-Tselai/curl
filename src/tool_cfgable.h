@@ -162,6 +162,7 @@ struct OperationConfig {
   char *ssl_ec_curves;
   char *krblevel;
   char *request_target;
+  char *warc_file;
   long httpversion;
   bool http09_allowed;
   bool nobuffer;

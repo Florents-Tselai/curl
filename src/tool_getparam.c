@@ -359,6 +359,7 @@ static const struct LongShort aliases[]= {
   {"#m", "progress-meter",           ARG_BOOL},
   {":",  "next",                     ARG_NONE},
   {":a", "variable",                 ARG_STRING},
+  {":b", "warc-file",                ARG_FILENAME}
 };
 
 /* Split the argument of -E to 'certname' and 'passphrase' separated by colon.

@@ -2210,6 +2210,8 @@ typedef enum {
   /* set a specific client IP for HAProxy PROXY protocol header? */
   CURLOPT(CURLOPT_HAPROXY_CLIENT_IP, CURLOPTTYPE_STRINGPOINT, 323),
 
+  CURLOPT(CURLOPT_WARC_FILE, CURLOPTTYPE_STRINGPOINT, 333),
+
   CURLOPT_LASTENTRY /* the last unused */
 } CURLoption;
 

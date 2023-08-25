@@ -265,5 +265,6 @@
 --variable                           8.3.0
 --verbose (-v)                       4.0
 --version (-V)                       4.0
+--warc-file                          8.3.0-DEV
 --write-out (-w)                     6.5
 --xattr                              7.21.3
